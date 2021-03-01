@@ -1,0 +1,41 @@
+.companyTitleDiv {
+    font-size: 80px;
+    text-align: center;
+    background-color: rgb(119, 139, 165);
+    padding: 50px;
+}
+
+@media screen and (max-width: 800px) {
+    .companyTitle {
+        font-size: 50px;
+    }
+}
+
+.companyTitle {
+    font-weight: 500;
+    color: rgb(221, 221, 221);
+    font-family: 'Newsreader', serif;
+}
+
+.companyUnderText {
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}
+
+.whyDiv {
+    max-width: 900px;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Gruppo', cursive;
+    font-size: larger;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 800px) {
+    .whyDiv {
+        width: 90%;
+    }
+}

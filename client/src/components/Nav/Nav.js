@@ -1,18 +1,22 @@
 import React from 'react';
+import "./nav.css";
 import { Link } from "react-router-dom";
 
 function Nav() {
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <Link to ="/"><div className="navbar-brand" href="#">Company Name</div></Link>
+                <Link to="/"><div className="navbar-brand">WCD</div></Link>
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div className="navbar-nav">
-                        <Link to ="/"><div className="nav-link">Home</div></Link>
-                        <Link to="/about"><div className="nav-link">About</div></Link>
-                        <Link to="/web-services"><div className="nav-link">Web Services</div></Link>
-                        <Link to="/portfolio"><div className="nav-link">Portfolio</div></Link>
-                        <Link to="/contact"><div className="nav-link">Contact</div></Link>
+                    <div className="navbar-nav navBarLinks">
+                        <Link to="/"><div className="nav-link" title="Home Page">Home</div></Link>
+                        <Link to="/about"><div className="nav-link" title="About Us">About</div></Link>
+                        <Link to="/web-services"><div className="nav-link" title="What We Offer">Web Services</div></Link>
+                        <Link to="/portfolio"><div className="nav-link" title="Our Projects">Portfolio</div></Link>
+                        <Link to="/contact"><div className="nav-link" title="Contact Us">Contact</div></Link>
                     </div>
                 </div>
             </nav>
