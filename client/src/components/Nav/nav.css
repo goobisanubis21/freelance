@@ -1,4 +1,6 @@
-
+.navMainDiv {
+    box-shadow: 0 0 30px 5px rgb(92, 92, 92);
+}
 
 .navBarLinks > a {
     text-decoration: none !important;

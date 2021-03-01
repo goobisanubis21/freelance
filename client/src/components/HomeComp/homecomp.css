@@ -18,7 +18,7 @@
 }
 
 .companyUnderText {
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
     color: white;
 }
@@ -27,15 +27,70 @@
     max-width: 900px;
     text-align: center;
     margin-top: 60px;
-    margin-left: auto;
+    margin-left: 50px;
     margin-right: auto;
     font-family: 'Gruppo', cursive;
     font-size: larger;
     font-weight: 700;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .whyDiv {
         width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.estimate {
+    width: 20%;
+    margin-left: auto;
+    margin-right: 120px;
+    margin-top: -460px;
+    background-color: rgb(183, 209, 226) !important;
+    box-shadow: 0 0 30px 5px rgb(92, 92, 92);
+}
+
+.estimate input {
+    display: block;
+    margin: 25px;
+    width: 80%;
+    border-radius: 5px;
+    border: 0;
+}
+
+.estimate textarea {
+    display: block;
+    margin: 25px;
+    width: 80%;
+    height: 80px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.estimate button {
+    display: block;
+    margin: 20px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(119, 139, 165);
+    color: white;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1350px) {
+    .estimate {
+        width: 40%;
+        margin-right: auto;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .estimate {
+        width: 80%;
     }
 }
