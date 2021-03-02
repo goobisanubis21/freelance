@@ -1,0 +1,19 @@
+.footerDiv {
+    text-align: center;
+    background-color: rgb(104, 104, 141);
+    color: white;
+    padding: 10px;
+}
+
+.footerDiv p {
+    display: none;
+}
+
+.footerDiv:hover {
+    height: 250px;
+}
+
+.footerDiv:hover p {
+    display: block;
+    transition: top ease 0.5s;
+}
