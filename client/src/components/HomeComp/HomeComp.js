@@ -3,10 +3,10 @@ import "./homecomp.css";
 
 function HomeComp() {
     return (
-        <div>
+        <div className="homeCompMainDiv">
             <div className="companyTitleDiv">
-                <p className="companyTitle">WebCanvas Development</p>
-                <p className="companyUnderText">
+                <p className="companyTitle text-focus-in"><span className="firstLetter">Web</span>Canvas <span className="firstLetter">Development</span></p>
+                <p className="companyUnderText tracking-in-contract-bck-bottom">
                     Full Stack Web and Mobile Responsive Applications
                 </p>
             </div>
@@ -45,6 +45,7 @@ function HomeComp() {
                 </form>
             </div>
             <div className="newJersey">
+                <p>Located on the coast and we service anywhere in The Garden State</p>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/New_Jersey_Counties.svg/1200px-New_Jersey_Counties.svg.png" alt="New Jersey"></img>
             </div>
         </div>
