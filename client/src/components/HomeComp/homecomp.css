@@ -268,6 +268,14 @@
   display: flex;
 }
 
+.abootCard {
+  margin-right: 50px;
+}
+
+.portCard {
+  margin-left: 50px;
+}
+
 .projectCar {
   margin-top: 100px;
   margin-right: auto;
@@ -275,6 +283,7 @@
   width: 450px;
   border-radius: 50px !important;
   background-image: linear-gradient(black, white);
+  box-shadow: 0 0 50px 20px rgb(25, 116, 78);
 }
 
 @media screen and (max-width: 1000px) {
@@ -300,7 +309,7 @@
   width: 450px;
   border-radius: 50px !important;
   background-image: linear-gradient(black, rgb(94, 163, 195), white);
-  margin-left: 20px;
+  box-shadow: 0 0 50px 20px rgb(21, 50, 73);
 }
 
 .webCar {
@@ -333,5 +342,30 @@
 
   .webCar {
     width: 300px;
+  }
+}
+
+.stackLogos {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+  align-items: center;
+}
+
+.stackLogos img {
+  width: 200px;
+}
+
+@media screen and (max-width: 1250px) {
+  .stackLogos {
+    display: block;
+    text-align: center;
+  }
+
+  .stackLogos img {
+    width: 150px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

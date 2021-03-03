@@ -7,7 +7,15 @@ import { Link } from "react-router-dom";
 import Hang from "./handout.png";
 import Brain from "./brain.png";
 import Weather from "./weather.png";
-import AboutPhoto from "./aboutPhoto.jpg"
+import AboutPhoto from "./aboutPhoto.jpg";
+import LearnMore from "./learnmore.jpg";
+import ReactLogo from "./reactlogo.png";
+import Html from "./htmllogo.png";
+import JS from "./jslogo.png";
+import NodeLogo from "./nodelogo.png";
+import MongoLogo from "./mongologo.png";
+import CSSLogo from "./csslogo.png";
+
 
 function HomeComp() {
     return (
@@ -72,7 +80,7 @@ function HomeComp() {
                 </div>
             </div>
             <div className="allCards">
-                <div className="card aboutCar">
+                <div className="card aboutCar portCard">
                 <div className="ourProjectsLink">
                         <Link to="/about">
                             About Us
@@ -118,10 +126,35 @@ function HomeComp() {
                         </div>
                     </div>
                 </div>
-                <div className="card webCar">
-                    <div className="card-body">
-                        web
+                <div className="card aboutCar abootCard">
+                <div className="ourProjectsLink">
+                        <Link to="/web-services">
+                            Learn More
+                    </Link>
                     </div>
+                    <div className="card-body">
+                        <img className="d-block w-100" src={LearnMore} alt="about"></img>
+                    </div>
+                </div>
+            </div>
+            <div className="stackLogos">
+                <div>
+                    <a href="https://reactjs.org/"><img src={ReactLogo} alt="ReactLogo"></img></a>
+                </div>
+                <div>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"><img src={Html} alt="Html"></img></a>
+                </div>
+                <div>
+                    <a href="https://www.javascript.com/"><img src={JS} alt="JS"></img></a>
+                </div>
+                <div>
+                    <a href="https://www.w3schools.com/css/"><img src={CSSLogo} alt="CSSLogo"></img></a>
+                </div>
+                <div>
+                    <a href="https://nodejs.org/en/about/"><img src={NodeLogo} alt="NodeLogo"></img></a>
+                </div>
+                <div>
+                    <a href="http://mongodb.github.io/node-mongodb-native/api-articles/nodekoarticle1.html"><img src={MongoLogo} alt="MongoLogo"></img></a>
                 </div>
             </div>
         </div>
