@@ -4,8 +4,7 @@ import "./footer.css";
 function Footer() {
     return (
         <div className="footerDiv">
-            WebCanvasDevelopment 2021
-            <p>testing</p>
+            WebCanvas Development 2021
         </div>
     )
 }

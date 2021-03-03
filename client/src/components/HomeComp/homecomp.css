@@ -1,10 +1,19 @@
 .homeCompMainDiv {
     margin-top: 80px;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
+}
+
+.homeLogo {
+  width: 150px;
+  margin-top: 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 85px 10px rgb(188, 200, 207);
+  margin-bottom: 30px;
+  position: relative;
 }
 
 .firstLetter {
-    color: black;
+    color: rgb(0, 174, 255);
 }
 
 .text-focus-in {
@@ -38,15 +47,15 @@
   }
 
   .tracking-in-contract-bck-bottom {
-	-webkit-animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	        animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    -webkit-animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
 @-webkit-keyframes tracking-in-contract-bck-bottom {
     0% {
       letter-spacing: 1em;
       -webkit-transform: translateZ(400px) translateY(300px);
-              transform: translateZ(400px) translateY(300px);
+      transform: translateZ(400px) translateY(300px);
       opacity: 0;
     }
     40% {
@@ -78,8 +87,21 @@
 .companyTitleDiv {
     font-size: 80px;
     text-align: center;
-    background-color: rgb(119, 139, 165);
+    background-image: url("./headerphoto.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 50px;
+    position: relative;
+}
+
+.companyTitleDiv:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.75);
 }
 
 @media screen and (max-width: 800px) {
@@ -90,14 +112,15 @@
 
 .companyTitle {
     font-weight: 500;
-    color: rgb(221, 221, 221);
+    color: rgb(255, 255, 255);
     font-family: 'Newsreader', serif;
 }
 
 .companyUnderText {
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 700;
     text-align: center;
-    color: white;
+    color: rgb(0, 255, 85);
 }
 
 .whyDiv {
@@ -124,8 +147,8 @@
     max-width: 600px;
     margin-left: auto;
     margin-right: 120px;
-    margin-top: -260px;
-    background-color: rgb(183, 209, 226) !important;
+    margin-top: -450px;
+    background-color: rgb(147, 255, 183) !important;
     box-shadow: 0 0 30px 5px rgb(92, 92, 92);
 }
 
@@ -167,7 +190,7 @@
 
 .newJersey {
     width: 70%;
-    margin-top: -100px;
+    margin-top: -50px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -206,4 +229,109 @@
     .newJersey img {
         width: 90%;
     }
+}
+
+.testimonials {
+  width: 30%;
+  margin-left: auto;
+  margin-right: 200px;
+  margin-top: -630px;
+  text-align: center;
+}
+
+.artImg {
+  width: 150px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+@media screen and (max-width: 1520px) {
+  .testimonials {
+    margin-top: 50px;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .artImg {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 1520px) {
+  .testimonials {
+    width: 80%;
+  }
+}
+
+.allCards {
+  display: flex;
+}
+
+.projectCar {
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 450px;
+  border-radius: 50px !important;
+  background-image: linear-gradient(black, white);
+}
+
+@media screen and (max-width: 1000px) {
+  .projectCar {
+    width: 300px;
+  }
+}
+
+.ourProjectsLink {
+  padding-top: 10px;
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  font-family: 'Newsreader', serif;
+}
+
+.ourProjectsLink a:hover {
+  text-decoration: none;
+}
+
+.aboutCar {
+  margin-top: 100px;
+  width: 450px;
+  border-radius: 50px !important;
+  background-image: linear-gradient(black, rgb(94, 163, 195), white);
+  margin-left: 20px;
+}
+
+.webCar {
+  margin-top: 100px;
+  width: 450px;
+  border-radius: 50px !important;
+  background-image: linear-gradient(black, rgb(99, 197, 99), white);
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 1450px) {
+  .allCards {
+    display: block;
+  }
+  .aboutCar {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .webCar {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .aboutCar {
+    width: 300px;
+  }
+
+  .webCar {
+    width: 300px;
+  }
 }

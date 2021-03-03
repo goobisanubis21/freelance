@@ -1,12 +1,13 @@
 import React from 'react';
 import "./nav.css";
 import { Link } from "react-router-dom";
+import Logo from "./webCanvasLogo.png"
 
 function Nav() {
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-light bg-light navMainDiv">
-                <Link to="/"><div className="navbar-brand">WCD</div></Link>
+                <Link to="/"><div className="navbar-brand"><img className="logo" src={Logo} alt="WCD"></img></div></Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

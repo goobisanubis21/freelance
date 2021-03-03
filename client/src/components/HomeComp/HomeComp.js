@@ -1,10 +1,19 @@
 import React from 'react';
 import "./homecomp.css";
+import Logo from "./webCanvasLogo.png";
+import ArtImg from "./artImg2.png";
+import AdImg from "./adImg2.png";
+import { Link } from "react-router-dom";
+import Hang from "./handout.png";
+import Brain from "./brain.png";
+import Weather from "./weather.png";
+import AboutPhoto from "./aboutPhoto.jpg"
 
 function HomeComp() {
     return (
         <div className="homeCompMainDiv">
             <div className="companyTitleDiv">
+                <p><img className="homeLogo" src={Logo} alt="WCD"></img></p>
                 <p className="companyTitle text-focus-in"><span className="firstLetter">Web</span>Canvas <span className="firstLetter">Development</span></p>
                 <p className="companyUnderText tracking-in-contract-bck-bottom">
                     Full Stack Web and Mobile Responsive Applications
@@ -36,7 +45,7 @@ function HomeComp() {
                             <label>Company Name</label>
                             <input type="text" name="company" placeholder="Company Name"></input>
                             <label className="required">Phone Number</label>
-                            <input type="text" name="phone_number" placeholder="Phone Number"required></input>
+                            <input type="text" name="phone_number" placeholder="Phone Number" required></input>
                             <label className="required">Description</label>
                             <textarea type="text" name="description" placeholder="Brief Description of your Website" required></textarea>
                             <button className="estimateBtn" type="submit">Submit</button>
@@ -45,8 +54,75 @@ function HomeComp() {
                 </form>
             </div>
             <div className="newJersey">
-                <p>Located on the coast and we service anywhere in The Garden State</p>
+                <p>Located in Belmar Beach and we service anywhere in The Garden State</p>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/New_Jersey_Counties.svg/1200px-New_Jersey_Counties.svg.png" alt="New Jersey"></img>
+            </div>
+            <div className="testimonials">
+                <div>
+                    <img className="artImg" src={ArtImg} alt="arts"></img>
+                    <p>"This company is the best! They created my entire art website for a very affordable price and it was everything I needed and more. I absolutely highly recommend WebCanvas development to anyone who needs a website big or small!</p>
+                    <p>- Morgan Arts</p>
+                </div>
+                <div>
+                    <img className="artImg" src={AdImg} alt="ad"></img>
+                    <p>"I recently worked on a project with Web Canvas Development. I have dealt with many web developers over the years, large companies, small companies, expensive and cheap. I had the pleasure of working with the founder, Anthony and was truly amazed at the speed and professionalism of him and the rest of his company. I had a very specific, niche, tedious job for him and they knocked it out of the park. What was originally assumed to be a short term project has very quickly turned into an ongoing collaboration for the foreseeable future. Anthony and his team helped me build a highly profitable web based strategy as well as an incredible website I couldn't be happier with.  I'd be happy to speak to anyone on the fence about working with Web Canvas Development, they have endless knowledge and ability and I see the value in what they do.  I would recommend it to anyone looking to upgrade their online presence or people just getting started".</p>
+                    <p>- Roy J. Labaton</p>
+                    <p>Senior Vice President</p>
+                    <p>Abrahamsen Financial Group</p>
+                </div>
+            </div>
+            <div className="allCards">
+                <div className="card aboutCar">
+                <div className="ourProjectsLink">
+                        <Link to="/about">
+                            About Us
+                    </Link>
+                    </div>
+                    <div className="card-body">
+                        <img className="d-block w-100" src={AboutPhoto} alt="about"></img>
+                    </div>
+                </div>
+                <div className="card projectCar">
+                    <div className="ourProjectsLink">
+                        <Link to="/portfolio">
+                            See Our Projects
+                    </Link>
+                    </div>
+                    <div className="card-body">
+                        <div id="carouselExampleInterval" className="carousel slide" data-ride="carousel">
+                            <div className="carousel-inner">
+                                <div className="carousel-item active" data-interval="5000">
+                                    <img src={ArtImg} className="d-block w-100" alt="Art"></img>
+                                </div>
+                                <div className="carousel-item" data-interval="5000">
+                                    <img src={AdImg} className="d-block w-100" alt="Ad"></img>
+                                </div>
+                                <div className="carousel-item" data-interval="5000">
+                                    <img src={Hang} className="d-block w-100" alt="Hang"></img>
+                                </div>
+                                <div className="carousel-item" data-interval="5000">
+                                    <img src={Brain} className="d-block w-100" alt="Brain"></img>
+                                </div>
+                                <div className="carousel-item" data-interval="5000">
+                                    <img src={Weather} className="d-block w-100" alt="Weather"></img>
+                                </div>
+                            </div>
+                            <a className="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span className="sr-only">Previous</span>
+                            </a>
+                            <a className="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span className="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className="card webCar">
+                    <div className="card-body">
+                        web
+                    </div>
+                </div>
             </div>
         </div>
     )
