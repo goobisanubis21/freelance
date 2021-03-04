@@ -8,6 +8,12 @@
     font-size: 60px;
     font-family: 'Newsreader', serif;
     color: rgb(0, 129, 189);
+    margin-bottom: 40px;
+}
+
+.portfolioHeaderText {
+    font-size: 30px;
+    color: rgb(2, 177, 119);
 }
 
 .portfolioTitle {
@@ -21,9 +27,6 @@
 }
 
 .mainCard {
-    /* width: 80%; */
-    /* margin-left: 10%;
-    margin-right: 10%; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
@@ -35,6 +38,11 @@
 
 .mainCard img {
     width: 500px;
+}
+
+.mainCard img:hover {
+    width: 550px;
+    transition: width .5s ease-in-out;
 }
 
 .projectDescription {
@@ -60,6 +68,11 @@
 
     .mainCard img {
         width: 95%;
+    }
+
+    .mainCard img:hover {
+        width: 100%;
+        transition: .5s ease-in-out;
     }
 }
 
