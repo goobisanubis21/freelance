@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import PortfolioComp from "../components/PortfolioComp/PortfolioComp"
 
 function Portfolio() {
     return (
         <div>
-            portfolio
+            <PortfolioComp/>
         </div>
     )
 }

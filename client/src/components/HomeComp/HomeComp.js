@@ -27,10 +27,13 @@ function HomeComp() {
                     Full Stack Web and Mobile Responsive Applications
                 </p>
             </div>
+            <div className="helpYou">
+                <p className="helpYouP">New Jersey based and we are here to help you by developing and designing websites using one of the most sought after coding libraries avaliable today, React Js, to help you succeed.</p>
+            </div>
             <div className="whyEstimateBlock">
                 <div className="card whyDiv">
                     <div className="card-body">
-                        <h2><strong>Is a Website a Necessity?</strong></h2>
+                        <h2><strong>Importance</strong></h2>
                         <p>97% of all purchase decisions start with a simple search of your website. Without a fully functioning properly developed website to demonstrate your professionalism, you or your company is only relevant to 7% of the buying market.</p>
                     </div>
                 </div>
@@ -139,16 +142,16 @@ function HomeComp() {
             </div>
             <div className="stackLogos">
                 <div>
-                    <a href="https://reactjs.org/"><img src={ReactLogo} alt="ReactLogo"></img></a>
+                    <a href="https://reactjs.org/"><img className="reactImg" src={ReactLogo} alt="ReactLogo"></img></a>
                 </div>
                 <div>
-                    <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"><img src={Html} alt="Html"></img></a>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"><img className="htmlImg" src={Html} alt="Html"></img></a>
                 </div>
                 <div>
-                    <a href="https://www.javascript.com/"><img src={JS} alt="JS"></img></a>
+                    <a href="https://www.javascript.com/"><img className="jsImg" src={JS} alt="JS"></img></a>
                 </div>
                 <div>
-                    <a href="https://www.w3schools.com/css/"><img src={CSSLogo} alt="CSSLogo"></img></a>
+                    <a href="https://www.w3schools.com/css/"><img className="cssImg" src={CSSLogo} alt="CSSLogo"></img></a>
                 </div>
                 <div>
                     <a href="https://nodejs.org/en/about/"><img src={NodeLogo} alt="NodeLogo"></img></a>
