@@ -1,4 +1,81 @@
 .mainPortfolioDiv {
-    margin-top: 80px;
+    margin-top: 130px;
     margin-bottom: 150px;
+}
+
+.portfolioHeader {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Newsreader', serif;
+    color: rgb(0, 129, 189);
+}
+
+.portfolioTitle {
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(0, 255, 85);
+}
+
+.cardRows {
+    display: flex;
+}
+
+.mainCard {
+    /* width: 80%; */
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(36, 36, 36) !important;
+    border-radius: 50px !important;
+    box-shadow: 0 0 20px 10px rgb(75, 121, 117);
+}
+
+.mainCard img {
+    width: 500px;
+}
+
+.projectDescription {
+    width: 400px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.launchingSoon {
+    font-size: 25px;
+    color: red;
+}
+
+@media screen and (max-width: 1200px) {
+    .cardRows {
+        display: block;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .mainCard img {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .projectDescription {
+        width: 200px;
+    }
+}
+
+.logoImageDiv {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.logoImages {
+    width: 30px !important;
 }
