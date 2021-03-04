@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import WebServicesComp from "../components/WebServices/WebServicesComp";
 
 function WebServices() {
     return (
         <div>
-            web services
+            <WebServicesComp/>
         </div>
     )
 }

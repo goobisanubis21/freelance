@@ -1,0 +1,29 @@
+.mainWebDiv {
+    margin-top: 80px;
+    margin-bottom: 150px;
+    background-image: url("./webserv.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: fixed;
+    width: 100%;
+}
+
+.webTitle {
+    color: rgb(0, 255, 128);
+    font-size: 90px;
+    font-family: 'Newsreader', serif;
+    text-align: center;
+    margin-top: 150px;
+    position: relative;
+}
+
+.mainWebDiv:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.65);
+}
