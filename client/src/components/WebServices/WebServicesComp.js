@@ -2,7 +2,14 @@ import React from 'react';
 import "./webServices.css";
 import ReactLogo from "../HomeComp/reactlogo.png";
 import QuestionMark from "./questionmark.png";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import Diss from "./diss.png";
+import Layout from "./layout.png";
+import Approval from "./approval.png";
+import CodingImg from "./coding.png";
+import Review from "./review.png";
+import Debug from "./debug.png";
+import Launch from "./launch.png";
 
 function WebServicesComp() {
     return (
@@ -35,33 +42,40 @@ function WebServicesComp() {
                 <div className="ourProcessInfo">
                     <div className="whatWeDoTitle">
                         <p>Discussion</p>
+                        <img className="diss" src={Diss} alt="diss"></img>
                         <p className="ourProcessText">Detailed talk whether in person or on the phone about what you are looking for.</p>
                     </div>
                     <div className="whatWeDoTitle">
                         <p>Layout</p>
+                        <img className="layoutImg" src={Layout} alt="layout"></img>
                         <p className="ourProcessText">Our expert designers with a combined 15+ years of experience in Art will create a unique layout for your website.</p>
                     </div>
                     <div className="whatWeDoTitle">
                         <p>Approval</p>
+                        <img className="approvalImg" src={Approval} alt="approval"></img>
                         <p className="ourProcessText">We then present you with your layout for approval or any changes you would like us to make.</p>
                     </div>
                 </div>
                 <div className="ourProcessInfo">
                     <div className="whatWeDoTitle">
                         <p>Coding</p>
+                        <img className="codingImg" src={CodingImg} alt="CodingImg"></img>
                         <p className="ourProcessText">Once the layout is exactly up to par, this is where the magic happens and we code your entire website in React JavaScript from scratch.</p>
                     </div>
                     <div className="whatWeDoTitle">
                         <p>Review</p>
+                        <img className="reviewImg" src={Review} alt="Review"></img>
                         <p className="ourProcessText">After the coding process is complete we go over in detail the functionality of the website and assure that it is ready for testing.</p>
                     </div>
                     <div className="whatWeDoTitle">
                         <p>Debug</p>
+                        <img className="debugImg" src={Debug} alt="Debug"></img>
                         <p className="ourProcessText">We test every aspect of your website and solve any issues that may occur in high stress environments.</p>
                     </div>
                 </div>
                 <div className="whatWeDoTitle">
                     <p>Launch</p>
+                    <img className="launchImg" src={Launch} alt="Launch"></img>
                     <p className="ourProcessText">Finally, your personal website is polished and ready for launch. If you do not have a server of your own, we can provide you with a trusted high speed and reliable server that we use for our own webistes for a flat rate of only $10/month.</p>
                 </div>
                 <br />

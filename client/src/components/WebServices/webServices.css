@@ -118,3 +118,38 @@
         display: block;
     }
 }
+
+.diss {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.layoutImg {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.approvalImg {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.codingImg {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.reviewImg {
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+.debugImg {
+    width: 110px;
+    margin-bottom: 20px;
+}
+
+.launchImg {
+    width: 150px;
+    margin-bottom: 20px;
+}
