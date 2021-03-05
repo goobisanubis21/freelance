@@ -1,20 +1,24 @@
-.mainWebDiv {
+.webMainDiv {
     margin-top: 80px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
+    background-color: rgb(0, 0, 0);
+}
+
+.mainWebDiv {
     background-image: url("./webserv.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
-    position: fixed;
+    height: 570px;
+    position: relative;
     width: 100%;
 }
 
 .webTitle {
+    padding-top: 80px;
     color: rgb(0, 255, 128);
     font-size: 90px;
     font-family: 'Newsreader', serif;
     text-align: center;
-    margin-top: 150px;
     position: relative;
 }
 
@@ -26,4 +30,65 @@
     left: 0;
     bottom: 0;
     background-color: rgba(0,0,0,0.65);
+}
+
+.webTitleUnderText {
+    position: relative;
+    color: rgb(0, 153, 255);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.whatWeDoDiv {
+    text-align: center;
+}
+
+.whatWeDoTitle {
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(86, 136, 163);
+    font-family: 'Newsreader', serif;
+    margin-top: 80px;
+}
+
+.whatWeDoText {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.whatWeOffer {
+    font-size: 30px;
+    color: rgb(255, 74, 74);
+}
+
+.websiteEst {
+    font-size: 30px;
+}
+
+.websiteEst a {
+    color: rgb(78, 179, 78);
+    font-weight: 700;
+    text-decoration: none !important;
+}
+
+.questionLogo {
+    width: 22%;
+    margin-bottom: 40px;
+}
+
+.webReactLogo {
+    width: 40%;
+    margin-bottom: 15px;
+}
+
+.ourProcessTitle {
+    font-size: 80px;
+    font-weight: 600;
+    color: rgb(58, 139, 105);
+    font-family: 'Newsreader', serif;
+    margin-top: 80px;
 }

@@ -28,7 +28,7 @@ function HomeComp() {
                 </p>
             </div>
             <div className="helpYou">
-                <p className="helpYouP">New Jersey based and we are here to help you by developing and designing websites using one of the most sought after coding libraries avaliable today, React Js, to help you succeed.</p>
+                <p className="helpYouP">We are here to help you succeed by designing and developing websites using one of the most sought after coding libraries avaliable today, React Js.</p>
             </div>
             <div className="whyEstimateBlock">
                 <div className="card whyDiv">
