@@ -1,6 +1,7 @@
 .homeCompMainDiv {
     margin-top: 80px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
+    background-color: rgb(206, 206, 206);
 }
 
 .homeLogo {
@@ -249,9 +250,13 @@
 .testimonials {
   width: 30%;
   margin-left: auto;
-  margin-right: 200px;
-  margin-top: -630px;
+  margin-right: 106px;
+  margin-top: -610px;
   text-align: center;
+  color: white;
+  background-color: rgb(39, 39, 39);
+  border-radius: 10px;
+  padding: 40px;
 }
 
 .artImg {

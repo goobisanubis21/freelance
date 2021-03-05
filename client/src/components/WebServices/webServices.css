@@ -11,6 +11,7 @@
     height: 570px;
     position: relative;
     width: 100%;
+    box-shadow: 0 0 20px 20px;
 }
 
 .webTitle {
@@ -60,8 +61,13 @@
     color: rgb(255, 255, 255);
 }
 
-.whatWeOffer {
+.whatWeOfferDiv {
     font-size: 30px;
+    
+}
+
+.whatWeOffer {
+    font-size: 60px;
     color: rgb(255, 74, 74);
 }
 
@@ -91,4 +97,24 @@
     color: rgb(58, 139, 105);
     font-family: 'Newsreader', serif;
     margin-top: 80px;
+}
+
+.ourProcessInfo {
+    display: flex;
+    justify-content: space-between;
+    margin: 45px;
+}
+
+.ourProcessText {
+    font-size: 20px;
+    color: white;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 1100px) {
+    .ourProcessInfo {
+        display: block;
+    }
 }

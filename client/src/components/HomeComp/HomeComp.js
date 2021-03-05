@@ -46,7 +46,7 @@ function HomeComp() {
                 <form>
                     <div className="card estimate">
                         <div className="card-body">
-                            <h5>Get a Free Estimate</h5>
+                            <h3>Get a Free Estimate</h3>
                             <label className="required">First Name</label>
                             <input type="text" name="first_name" placeholder="First Name" required></input>
                             <label className="required">Last Name</label>
