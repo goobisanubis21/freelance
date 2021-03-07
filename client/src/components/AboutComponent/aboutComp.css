@@ -1,0 +1,35 @@
+.mainAboutDiv {
+    margin-bottom: 120px;
+}
+
+.aboutDiv {
+    margin-top: 60px;
+    text-align: center;
+    font-family: 'Newsreader', serif;
+}
+
+.aboutTitle {
+    font-size: 50px;
+}
+
+.aboutDescription {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.me {
+    border-radius: 50%;
+}
+
+.gitLinkLinks {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between !important;
+}
+
+.gitLinkLinks img {
+    width: 50px;
+}
