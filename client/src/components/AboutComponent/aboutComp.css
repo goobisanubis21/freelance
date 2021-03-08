@@ -16,9 +16,15 @@
     width: 65%;
     margin-left: auto;
     margin-right: auto;
+    font-size: 17px;
+}
+
+.aboutDescriptionTitle {
+    font-size: 25px;
 }
 
 .me {
+    margin-top: 30px;
     border-radius: 50%;
 }
 
