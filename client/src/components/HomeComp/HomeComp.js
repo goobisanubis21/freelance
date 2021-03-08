@@ -15,6 +15,8 @@ import JS from "./jslogo.png";
 import NodeLogo from "./nodelogo.png";
 import MongoLogo from "./mongologo.png";
 import CSSLogo from "./csslogo.png";
+import emailjs from "emailjs-com";
+
 
 
 function HomeComp() {
@@ -23,6 +25,38 @@ function HomeComp() {
     useEffect(() => {
         if (pathname = "/")window.scrollTo(0,0)
     }, [])
+
+    function handleBtn() {
+        let first_name = document.getElementById("first_name")
+        let last_name = document.getElementById("last_name")
+        let email = document.getElementById("email")
+        let phone = document.getElementById("phone_number")
+        let description = document.getElementById("description")
+        const buttonn = document.getElementById("sendEmailBtn")
+
+        
+        if (first_name.value && last_name.value && email.value && phone.value && description.value) {
+            buttonn.disabled = false
+        } else if ( first_name.value || last_name.value || email.value || phone.value || description.value === null) {
+            buttonn.disabled = true
+        }
+    }
+
+    function sendEmail(e) {
+        e.preventDefault();
+
+        emailjs.sendForm(process.env.REACT_APP_ID1, process.env.REACT_APP_ID2, e.target, process.env.REACT_APP_ID3)
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+            e.target.reset()
+            setTimeout(() => {
+                window.location.reload()
+            }, 2000);
+    }
+
 
     return (
         <div className="homeCompMainDiv">
@@ -49,23 +83,23 @@ function HomeComp() {
                         <p>We provide an affordable Full Stack Web Application Development Service that is mobile responsive and worthy of representing you and your business. We are avaliable for you 24 hours a day, 7 days a week to meet the requirements that, according to the market, you desprately need to ensure you stay on the path of success. WebCanvas Development will bring your vision into fruition.</p>
                     </div>
                 </div>
-                <form>
+                <form onSubmit={sendEmail} onChange={handleBtn}>
                     <div className="card estimate">
                         <div className="card-body">
                             <h3>Get a Free Estimate</h3>
                             <label className="required">First Name</label>
-                            <input type="text" name="first_name" placeholder="First Name" required></input>
+                            <input id="first_name" type="text" name="first_name" placeholder="First Name" required></input>
                             <label className="required">Last Name</label>
-                            <input type="text" name="last_name" placeholder="Last Name" required></input>
+                            <input id="last_name" type="text" name="last_name" placeholder="Last Name" required></input>
                             <label className="required">Email</label>
-                            <input type="email" name="email" placeholder="YourEmail@example.com" required></input>
+                            <input id="email" type="email" name="email" placeholder="YourEmail@example.com" required></input>
                             <label>Company Name</label>
-                            <input type="text" name="company" placeholder="Company Name"></input>
+                            <input id="company" type="text" name="company" placeholder="Company Name"></input>
                             <label className="required">Phone Number</label>
-                            <input type="text" name="phone_number" placeholder="Phone Number" required></input>
+                            <input id="phone_number" type="text" name="phone_number" placeholder="Phone Number" required></input>
                             <label className="required">Description</label>
-                            <textarea type="text" name="description" placeholder="Brief Description of your Website" required></textarea>
-                            <button className="estimateBtn" type="submit">Submit</button>
+                            <textarea id="description" type="text" name="description" placeholder="Brief Description of your Website" required></textarea>
+                            <button id="sendEmailBtn" className="estimateBtn" type="submit">Submit</button>
                         </div>
                     </div>
                 </form>
