@@ -1,7 +1,14 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import {useLocation} from "react-router-dom";
 import "./contactComp.css";
 
 function ContactComp() {
+
+    var { pathname } = useLocation()
+    useEffect(() => {
+        if (pathname = "/contact")window.scrollTo(0,0)
+    }, [])
+
     return (
         <div className="mainContactDiv">
             <form>
