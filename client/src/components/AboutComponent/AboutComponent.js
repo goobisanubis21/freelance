@@ -1,10 +1,17 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import "./aboutComp.css";
 import Me from "./me.png"
 import Linked from "./linked.png";
 import GitHubLink from "./git.png";
+import { useLocation } from "react-router-dom";
 
 function AboutComponent() {
+
+    var { pathname } = useLocation()
+    useEffect(() => {
+        if (pathname = "/about")window.scrollTo(0,0)
+    }, [])
+
     return (
         <div className="mainAboutDiv">
             <div className="aboutDiv">

@@ -1,4 +1,5 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import { useLocation } from "react-router-dom";
 import "./portfolioComp.css";
 import ArtImg from "../HomeComp/artImg2.png";
 import AdImg from "../HomeComp/adImg2.png";
@@ -13,6 +14,12 @@ import MongoLogo from "../HomeComp/mongologo.png";
 import CSSLogo from "../HomeComp/csslogo.png";
 
 function PortfolioComp() {
+
+    var { pathname } = useLocation()
+    useEffect(() => {
+        if (pathname = "/portfolio")window.scrollTo(0,0)
+    }, [])
+
     return (
         <div>
             <div className="mainPortfolioDiv">

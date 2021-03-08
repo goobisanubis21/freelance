@@ -1,8 +1,8 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import "./webServices.css";
 import ReactLogo from "../HomeComp/reactlogo.png";
 import QuestionMark from "./questionmark.png";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import Diss from "./diss.png";
 import Layout from "./layout.png";
 import Approval from "./approval.png";
@@ -12,6 +12,12 @@ import Debug from "./debug.png";
 import Launch from "./launch.png";
 
 function WebServicesComp() {
+
+    var { pathname } = useLocation()
+    useEffect(() => {
+        if (pathname = "/web-services")window.scrollTo(0,0)
+    }, [])
+
     return (
         <div className="webMainDiv">
             <div className="mainWebDiv">

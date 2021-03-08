@@ -1,9 +1,9 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import "./homecomp.css";
 import Logo from "./webCanvasLogo.png";
 import ArtImg from "./artImg2.png";
 import AdImg from "./adImg2.png";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import Hang from "./handout.png";
 import Brain from "./brain.png";
 import Weather from "./weather.png";
@@ -18,6 +18,12 @@ import CSSLogo from "./csslogo.png";
 
 
 function HomeComp() {
+
+    var { pathname } = useLocation()
+    useEffect(() => {
+        if (pathname = "/")window.scrollTo(0,0)
+    }, [])
+
     return (
         <div className="homeCompMainDiv">
             <div className="companyTitleDiv">
