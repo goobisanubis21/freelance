@@ -19,7 +19,7 @@ function AboutComponent() {
                 <p className="aboutDescriptionTitle">WebCanvas Development was founded in 2021 by Anthony Parrino.</p>
                 <br/>
                 <p className="aboutDescription">My coding journey began 3 years ago when I realized how bad I needed a website to sell my oil paintings. I tried a few of the no coding involved 3rd party sites to build it..but none of them felt as if I was using the power of the internet to its fullest potential. It was decent and close but not exactly what I wanted out of a true born web application to represent me and my art, so I decided to learn software development. Fast forward 3 years, thousands of hours and a few gray hairs later, I can offically say that I am now able to not only build that website, but ANY website for ANYone. </p>
-                <p className="aboutDescription">We focus soley on understanding who you are as our client and what your industry expects out of you so we can meet the needs of your clients user experience. Our goal is to help make sure that you are as equipped as possible with your online presence to help ensure that your clients will choose you.</p>
+                <p className="aboutDescription">We focus solely on understanding who you are as our client and what your industry expects out of you so we can meet the needs of your clients user experience. Our goal is to help make sure that you are as equipped as possible with your online presence to help ensure that your clients will choose you.</p>
                 <img className="me" src={Me} alt="ceo"></img>
                 <div className="gitLinkLinks">
                     <p><a href="https://github.com/goobisanubis21"><img className="git" src={GitHubLink} alt="Git"></img></a></p>
