@@ -39,7 +39,7 @@ function PortfolioComp() {
                                 <img className="logoImages" src={MongoLogo} alt="mongo"></img>
                             </div>
                             <p className="portfolioTitle">Artist E-Commerce</p>
-                            <a href="/portfolio"><img src={ArtImg} alt="Art Img"></img></a>
+                            <a href="https://morgs-art.herokuapp.com"><img src={ArtImg} alt="Art Img"></img></a>
                             <p className="projectDescription">Morgan Danton's amazing artwork will soon be displayed to the world thanks to WebCanvas's newly developed website created to specifically meet the upcoming artist's needs. Her site allows a user to view items, contact her via email and purchase any item on the website using the npm package known as stripe.</p><span className="launchingSoon">Launching soon!</span>
                             
                         </div>
