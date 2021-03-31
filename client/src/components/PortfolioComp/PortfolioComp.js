@@ -53,7 +53,7 @@ function PortfolioComp() {
                                 <img className="logoImages" src={CSSLogo} alt="css"></img>
                             </div>
                             <p className="portfolioTitle">Annuity Ad</p>
-                            <a href="https://frozen-badlands-43527.herokuapp.com/"><img src={AdImg} alt="Ad Img"></img></a>
+                            <a href="https://www.zerostressretirement.com"><img src={AdImg} alt="Ad Img"></img></a>
                             <p className="projectDescription">The well known team in the Financial world known as Abrahamsen Financial Group trusted WebCanvas Development in the creation of their single page website. Used for ads, the first thing a potential client of theirs will be greeted with is the expert design and development of our clean and polished website to help ensure the success of closing a deal.</p>
                             
                         </div>
