@@ -77,6 +77,12 @@ function HomeComp() {
                 </div>
                 <div className="card whyDiv">
                     <div className="card-body">
+                        <h2><strong>Marketing</strong></h2>
+                        <p>Our marketing team can provide your business with the advertising you need. Using successful Facebook Marketing techniques proven by our clients we are able to increase your lead conversions which in turn will increase your sales and exposure.</p>
+                    </div>
+                </div>
+                <div className="card whyDiv">
+                    <div className="card-body">
                         <h2><strong>Why WebCanvas</strong></h2>
                         <p>We provide an affordable Full Stack Web Application Development Service that is mobile responsive and worthy of representing you and your business. We are avaliable for you 24 hours a day, 7 days a week to meet the requirements that, according to the market, you desprately need to ensure you stay on the path of success. WebCanvas Development will bring your vision into fruition.</p>
                     </div>
@@ -96,7 +102,7 @@ function HomeComp() {
                             <label className="required">Phone Number</label>
                             <input id="phone_number" type="text" name="phone_number" placeholder="Phone Number" required></input>
                             <label className="required">Description</label>
-                            <textarea id="description" type="text" name="description" placeholder="Brief Description of your Website" required></textarea>
+                            <textarea id="description" type="text" name="description" placeholder="Brief Description of what you need us to provide. Website? Marketing? Logo? All of the above?" required></textarea>
                             <button id="sendEmailBtn" className="estimateBtn" type="submit">Submit</button>
                         </div>
                     </div>

@@ -56,7 +56,7 @@ function ContactComp() {
                         <label className="required">Phone Number</label>
                         <input id="phone_number" type="text" name="phone_number" placeholder="Phone Number" required></input>
                         <label className="required">Description</label>
-                        <textarea id="description" type="text" name="description" placeholder="Brief Description of the Website you are looking to get created" required></textarea>
+                        <textarea id="description" type="text" name="description" placeholder="Brief Description of what you need us to provide. Website? Marketing? Logo? All of the above?" required></textarea>
                         <button id="sendEmailBtn" className="estimateBtn" type="submit">Submit</button>
                     </div>
                 </div>

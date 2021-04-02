@@ -1,10 +1,10 @@
 .footerDiv {
     text-align: center;
-    background-color: rgb(104, 104, 141);
-    color: white;
+    background-color: rgb(170, 170, 170);
+    color: rgb(0, 0, 0);
     padding: 10px;
     height: 100px;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     width: 100%;
 }
