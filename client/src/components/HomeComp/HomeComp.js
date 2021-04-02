@@ -103,7 +103,7 @@ function HomeComp() {
                 </form>
             </div>
             <div className="newJersey">
-                <p>Located in Belmar Beach and we service anywhere in The Garden State</p>
+                <p>Located in Belmar Beach NJ and we service anywhere in The United States!</p>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/New_Jersey_Counties.svg/1200px-New_Jersey_Counties.svg.png" alt="New Jersey"></img>
             </div>
             <div className="testimonials">

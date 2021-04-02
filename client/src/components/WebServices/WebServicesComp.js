@@ -32,10 +32,10 @@ function WebServicesComp() {
                     <p>We also offer, for a monthly fee, the choice to allow us to maintain your website so you never have to look at a single line of code. We can debug, update and add anything at anytime if you choose to join our maintenance program. WebCanvas specializes in HTML, CSS, JavaScript, Node.js MongoDB, MERN Stack, and of course React.Js.</p>
                     <div className="whatWeOfferDiv">
                         <p className="whatWeOffer">What We Offer</p>
-                        <p>Unique Logo Design: Starting @ $100</p>
-                        <p>FaceBook Advertising: Starting @ $200/month</p>
-                        <p>Maintenance: Starting @ $300/month</p>
-                        <p className="websiteEst">WebSites: <Link to="/contact">Get a FREE Estimate</Link></p>
+                        <p>Unique Logo Design</p>
+                        <p>FaceBook Advertising</p>
+                        <p>Website Maintenance</p>
+                        <p className="websiteEst">WebSite Design: <Link to="/contact">Get a FREE Estimate</Link></p>
                     </div>
                 </div>
                 <p className="whatWeDoTitle">What is React?</p>
