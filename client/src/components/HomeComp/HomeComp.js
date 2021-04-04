@@ -16,6 +16,7 @@ import NodeLogo from "./nodelogo.png";
 import MongoLogo from "./mongologo.png";
 import CSSLogo from "./csslogo.png";
 import emailjs from "emailjs-com";
+import GC from "./gc.png"
 
 
 
@@ -62,11 +63,11 @@ function HomeComp() {
                 <p><img className="homeLogo" src={Logo} alt="WCD"></img></p>
                 <p className="companyTitle text-focus-in"><span className="firstLetter">Web</span>Canvas <span className="firstLetter">Development</span></p>
                 <p className="companyUnderText tracking-in-contract-bck-bottom">
-                    Full Stack Web and Mobile Responsive Applications
+                    - Websites - Mobile Responsive Applications - Marketing -
                 </p>
             </div>
             <div className="helpYou">
-                <p className="helpYouP">We are here to help you succeed by designing and developing websites using one of the most sought after coding libraries avaliable today, React Js.</p>
+                <p className="helpYouP">We are here to help you succeed with our successful marketing techniques. We also design/develop websites catering to your exact requirements.</p>
             </div>
             <div className="whyEstimateBlock">
                 <div className="card whyDiv">
@@ -108,22 +109,29 @@ function HomeComp() {
                     </div>
                 </form>
             </div>
-            <div className="newJersey">
+            {/* <div className="newJersey">
                 <p>Located in Belmar Beach NJ and we service anywhere in The United States!</p>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/New_Jersey_Counties.svg/1200px-New_Jersey_Counties.svg.png" alt="New Jersey"></img>
-            </div>
+            </div> */}
             <div className="testimonials">
-                <div>
-                    <img className="artImg" src={ArtImg} alt="arts"></img>
-                    <p>"This company is the best! They created my entire art website for a very affordable price and it was everything I needed and more. I absolutely highly recommend WebCanvas development to anyone who needs a website big or small!</p>
-                    <p>- Morgan Arts</p>
-                </div>
                 <div>
                     <img className="artImg" src={AdImg} alt="ad"></img>
                     <p>"I recently worked on a project with Web Canvas Development. I have dealt with many web developers over the years, large companies, small companies, expensive and cheap. I had the pleasure of working with the founder, Anthony and was truly amazed at the speed and professionalism of him and the rest of his company. I had a very specific, niche, tedious job for him and they knocked it out of the park. What was originally assumed to be a short term project has very quickly turned into an ongoing collaboration for the foreseeable future. Anthony and his team helped me build a highly profitable web based strategy as well as an incredible website I couldn't be happier with.  I'd be happy to speak to anyone on the fence about working with Web Canvas Development, they have endless knowledge and ability and I see the value in what they do.  I would recommend it to anyone looking to upgrade their online presence or people just getting started".</p>
                     <p>- Roy J. Labaton</p>
                     <p>Senior Vice President</p>
                     <p>Abrahamsen Financial Group</p>
+                </div>
+                <div>
+                    <img className="artImg" src={GC} alt="ad"></img>
+                    <p>"I own an up and coming clothing line and with the help of WebCanvas Dev's success with marketing our brand and me personally for my graphic design work, we achieved a sales growth of over 90% in less than a few months. Needless to say we are sticking with this company for the foreseeable future".</p>
+                    <p>- Gerard Carnevale</p>
+                    <p>Founder GC Studios</p>
+                    <p>Freelance Graphic Designer</p>
+                </div>
+                <div>
+                    <img className="artImg" src={ArtImg} alt="arts"></img>
+                    <p>"This company is the best! They created my entire art website for a very affordable price and it was everything I needed and more. I absolutely highly recommend WebCanvas development to anyone who needs a website big or small!</p>
+                    <p>- Morgan Arts</p>
                 </div>
             </div>
             <div className="allCards">
