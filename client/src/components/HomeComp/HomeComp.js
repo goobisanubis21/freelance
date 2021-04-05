@@ -17,6 +17,7 @@ import MongoLogo from "./mongologo.png";
 import CSSLogo from "./csslogo.png";
 import emailjs from "emailjs-com";
 import GC from "./gc.png"
+import FBAD from "./fbad.png"
 
 
 
@@ -55,7 +56,6 @@ function HomeComp() {
             e.target.reset()
             alert("Your Email has been sent! We will respond in 1 business day or less.")
     }
-
 
     return (
         <div className="homeCompMainDiv">
@@ -109,10 +109,24 @@ function HomeComp() {
                     </div>
                 </form>
             </div>
-            {/* <div className="newJersey">
-                <p>Located in Belmar Beach NJ and we service anywhere in The United States!</p>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/New_Jersey_Counties.svg/1200px-New_Jersey_Counties.svg.png" alt="New Jersey"></img>
-            </div> */}
+
+            <div className="fbadMainDiv">
+                <div className="fbadImgDiv">
+                    <img className="fbad" src={FBAD} alt="fbad"></img>
+                </div>
+                <div className="fbadtextdiv">
+                    <p className="fbadtextTitle">Social Media Marketing</p>
+                    <br/>
+                    <p className="fbadtexttext">Accelerate your revenue with proven Facebook advertising strategies.</p>
+                    <div className="unolist">
+                        <p>o High Click Rates</p>
+                        <p>o Heavy Traffic</p>
+                        <p>o Amazing Conversions</p>
+                        <p>o SALES</p>
+                    </div>
+                </div>
+            </div>
+
             <div className="testimonials">
                 <div>
                     <img className="artImg" src={AdImg} alt="ad"></img>
@@ -121,17 +135,20 @@ function HomeComp() {
                     <p>Senior Vice President</p>
                     <p>Abrahamsen Financial Group</p>
                 </div>
+                <br/>
                 <div>
                     <img className="artImg" src={GC} alt="ad"></img>
-                    <p>"I own an up and coming clothing line and with the help of WebCanvas Dev's success with marketing our brand and me personally for my graphic design work, we achieved a sales growth of over 90% in less than a few months. Needless to say we are sticking with this company for the foreseeable future".</p>
+                    <p>"I own an up and coming clothing line and with the help of WebCanvas Dev's success with marketing our brand and me personally for my graphic design work, we achieved a sales growth of over 300%!! in less than a few months. Needless to say we are sticking with this company for the foreseeable future".</p>
                     <p>- Gerard Carnevale</p>
                     <p>Founder GC Studios</p>
                     <p>Freelance Graphic Designer</p>
                 </div>
+                <br/>
                 <div>
                     <img className="artImg" src={ArtImg} alt="arts"></img>
                     <p>"This company is the best! They created my entire art website for a very affordable price and it was everything I needed and more. I absolutely highly recommend WebCanvas development to anyone who needs a website big or small!</p>
                     <p>- Morgan Arts</p>
+                    <p>Oil Painter</p>
                 </div>
             </div>
             <div className="allCards">
