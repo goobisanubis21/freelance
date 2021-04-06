@@ -213,12 +213,6 @@
         margin-left: auto;
         margin-right: auto;
     }
-    .newJersey {
-        text-align: center;
-        margin-top: 80px;
-        margin-left: auto;
-        margin-right: auto;
-    }
 }
 
 @media screen and (max-width: 800px) {
@@ -259,7 +253,8 @@
 }
 
 .unolist {
-  font-size: 21px;
+  font-size: 28px;
+  color: rgb(255, 0, 0);
 }
 
 @media screen and (max-width: 1799px) {
@@ -276,7 +271,7 @@
   }
   
   .unolist {
-    font-size: 21px;
+    font-size: 25px;
   }
 }
 
@@ -295,6 +290,10 @@
 }
 
 @media screen and (max-width: 1199px) {
+  .fbadtextTitle {
+    font-size: 30px;
+  }
+
   .fbad {
       width: 100%;
   }
@@ -303,11 +302,15 @@
   }
 
   .unolist {
-    font-size: 15px;
+    font-size: 20px;
   }
 }
 
 @media screen and (max-width: 800px) {
+  .fbadtextTitle {
+    font-size: 50px;
+  }
+
   .fbadMainDiv {
     display: block;
   }
@@ -326,13 +329,19 @@
 }
 
 .testimonials {
-  width: 50%;
+  width: 100%;
+  height: 600px;
   margin: 200px auto;
   text-align: center;
   color: white;
   background-color: rgb(0, 0, 0);
   border-radius: 10px;
   padding: 40px;
+}
+
+.testiText {
+  width: 70%;
+  margin: 10px auto;
 }
 
 .artImg {
@@ -342,21 +351,14 @@
 }
 
 @media screen and (max-width: 1520px) {
-  .testimonials {
-    margin-top: 50px;
-    width: 50%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
   .artImg {
     width: 180px;
   }
 }
 
-@media screen and (max-width: 1520px) {
+@media screen and (max-width: 1160px) {
   .testimonials {
-    width: 80%;
+    height: auto;
   }
 }
 

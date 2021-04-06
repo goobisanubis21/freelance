@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import "./homecomp.css";
 import Logo from "./webCanvasLogo.png";
 import ArtImg from "./artImg2.png";
@@ -25,7 +25,7 @@ function HomeComp() {
 
     var { pathname } = useLocation()
     useEffect(() => {
-        if (pathname = "/")window.scrollTo(0,0)
+        if (pathname = "/") window.scrollTo(0, 0)
     }, [])
 
     function handleBtn() {
@@ -36,10 +36,10 @@ function HomeComp() {
         let description = document.getElementById("description")
         const buttonn = document.getElementById("sendEmailBtn")
 
-        
+
         if (first_name.value && last_name.value && email.value && phone.value && description.value) {
             buttonn.disabled = false
-        } else if ( first_name.value || last_name.value || email.value || phone.value || description.value === null) {
+        } else if (first_name.value || last_name.value || email.value || phone.value || description.value === null) {
             buttonn.disabled = true
         }
     }
@@ -53,8 +53,8 @@ function HomeComp() {
             }, (error) => {
                 console.log(error.text);
             });
-            e.target.reset()
-            alert("Your Email has been sent! We will respond in 1 business day or less.")
+        e.target.reset()
+        alert("Your Email has been sent! We will respond in 1 business day or less.")
     }
 
     return (
@@ -116,7 +116,7 @@ function HomeComp() {
                 </div>
                 <div className="fbadtextdiv">
                     <p className="fbadtextTitle">Social Media Marketing</p>
-                    <br/>
+                    <br />
                     <p className="fbadtexttext">Accelerate your revenue with proven Facebook advertising strategies.</p>
                     <div className="unolist">
                         <p>o High Click Rates</p>
@@ -127,33 +127,50 @@ function HomeComp() {
                 </div>
             </div>
 
-            <div className="testimonials">
-                <div>
-                    <img className="artImg" src={AdImg} alt="ad"></img>
-                    <p>"I recently worked on a project with Web Canvas Development. I have dealt with many web developers over the years, large companies, small companies, expensive and cheap. I had the pleasure of working with the founder, Anthony and was truly amazed at the speed and professionalism of him and the rest of his company. I had a very specific, niche, tedious job for him and they knocked it out of the park. What was originally assumed to be a short term project has very quickly turned into an ongoing collaboration for the foreseeable future. Anthony and his team helped me build a highly profitable web based strategy as well as an incredible website I couldn't be happier with.  I'd be happy to speak to anyone on the fence about working with Web Canvas Development, they have endless knowledge and ability and I see the value in what they do.  I would recommend it to anyone looking to upgrade their online presence or people just getting started".</p>
-                    <p>- Roy J. Labaton</p>
-                    <p>Senior Vice President</p>
-                    <p>Abrahamsen Financial Group</p>
-                </div>
-                <br/>
-                <div>
-                    <img className="artImg" src={GC} alt="ad"></img>
-                    <p>"I own an up and coming clothing line and with the help of WebCanvas Dev's success with marketing our brand and me personally for my graphic design work, we achieved a sales growth of over 300%!! in less than a few months. Needless to say we are sticking with this company for the foreseeable future".</p>
-                    <p>- Gerard Carnevale</p>
-                    <p>Founder GC Studios</p>
-                    <p>Freelance Graphic Designer</p>
-                </div>
-                <br/>
-                <div>
-                    <img className="artImg" src={ArtImg} alt="arts"></img>
-                    <p>"This company is the best! They created my entire art website for a very affordable price and it was everything I needed and more. I absolutely highly recommend WebCanvas development to anyone who needs a website big or small!</p>
-                    <p>- Morgan Arts</p>
-                    <p>Oil Painter</p>
+            <div className="card-body testimonials">
+                <div id="carouselExampleInterval" className="carousel slide" data-ride="carousel">
+                    <div className="carousel-inner">
+                        <div className="carousel-item active" data-interval="5000">
+                            <div>
+                                <img className="artImg" src={AdImg} alt="ad"></img>
+                                <p className="testiText">"I recently worked on a project with Web Canvas Development. I have dealt with many web developers over the years, large companies, small companies, expensive and cheap. I had the pleasure of working with the founder, Anthony and was truly amazed at the speed and professionalism of him and the rest of his company. I had a very specific, niche, tedious job for him and they knocked it out of the park. What was originally assumed to be a short term project has very quickly turned into an ongoing collaboration for the foreseeable future. Anthony and his team helped me build a highly profitable web based strategy as well as an incredible website I couldn't be happier with.  I'd be happy to speak to anyone on the fence about working with Web Canvas Development, they have endless knowledge and ability and I see the value in what they do.  I would recommend it to anyone looking to upgrade their online presence or people just getting started".</p>
+                                <p>- Roy J. Labaton</p>
+                                <p>Senior Vice President</p>
+                                <p>Abrahamsen Financial Group</p>
+                            </div>
+                        </div>
+                        <div className="carousel-item" data-interval="5000">
+                            <div>
+                                <img className="artImg" src={GC} alt="ad"></img>
+                                <p className="testiText">"I own an up and coming clothing line and with the help of WebCanvas Dev's success with marketing our brand and me personally for my graphic design work, we achieved a sales growth of over 300%!! in less than a few months. Needless to say we are sticking with this company for the foreseeable future".</p>
+                                <p>- Gerard Carnevale</p>
+                                <p>Founder GC Studios</p>
+                                <p>Freelance Graphic Designer</p>
+                            </div>
+                        </div>
+                        <div className="carousel-item" data-interval="5000">
+                            <div>
+                                <img className="artImg" src={ArtImg} alt="arts"></img>
+                                <p className="testiText">"This company is the best! They created my entire art website for a very affordable price and it was everything I needed and more. I absolutely highly recommend WebCanvas development to anyone who needs a website big or small!</p>
+                                <p>- Morgan Arts</p>
+                                <p>Oil Painter</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a className="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span className="sr-only">Previous</span>
+                    </a>
+                    <a className="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span className="sr-only">Next</span>
+                    </a>
                 </div>
             </div>
+
             <div className="allCards">
                 <div className="card aboutCar portCard">
-                <div className="ourProjectsLink">
+                    <div className="ourProjectsLink">
                         <Link to="/about">
                             About Us
                     </Link>
@@ -199,7 +216,7 @@ function HomeComp() {
                     </div>
                 </div>
                 <div className="card aboutCar abootCard">
-                <div className="ourProjectsLink">
+                    <div className="ourProjectsLink">
                         <Link to="/web-services">
                             Learn More
                     </Link>
