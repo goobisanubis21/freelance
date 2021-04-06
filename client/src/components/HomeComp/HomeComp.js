@@ -144,7 +144,7 @@ function HomeComp() {
 
             <div className="increase">
                 <p> - </p>
-                <p>Ready to start your dream project? What about that online business or an much needed update? Now is the time!</p>
+                <p>Ready to start your dream project? What about that online business or a much needed update? Now is the time!</p>
                 <p> - </p>
                 <p>We can build anything and market it too.</p>
                 <p> - </p>
