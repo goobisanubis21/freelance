@@ -44,7 +44,7 @@ function ContactComp() {
             <form onSubmit={sendEmail} onChange={handleBtn}>
                 <div className="card contactEstimate">
                     <div className="card-body">
-                        <h3>Get a Free Estimate</h3>
+                        <h3>Get a Free Quote</h3>
                         <label className="required">First Name</label>
                         <input id="first_name" type="text" name="first_name" placeholder="First Name" required></input>
                         <label className="required">Last Name</label>

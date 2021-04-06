@@ -18,6 +18,7 @@ import CSSLogo from "./csslogo.png";
 import emailjs from "emailjs-com";
 import GC from "./gc.png"
 import FBAD from "./fbad.png"
+import FBIN from "./fbinsta.webp"
 
 
 
@@ -125,6 +126,30 @@ function HomeComp() {
                         <p>o SALES</p>
                     </div>
                 </div>
+            </div>
+
+            <div className="increase">
+                <p> - </p>
+                <p>Increase your success with the help of WebCanvas. We build you full websites, we build you landing pages, we advertise your business, we get you traffic, we get you leads, we are affordable and we get you SALES.</p>
+                <p> - </p>
+                <p>Everything you need to grow your business is within your grasp</p>
+                <p> - </p>
+                <p>We take advantage of Facebook Pixel so you can keep track of everything. <Link to="/contact"> Learn more about Pixel!</Link></p>
+                <p> - </p>
+            </div>
+
+            <div>
+                <img className="fbin" src={FBIN} alt="fbin"></img>
+            </div>
+
+            <div className="increase">
+                <p> - </p>
+                <p>Ready to start your dream project? What about that online business or an much needed update? Now is the time!</p>
+                <p> - </p>
+                <p>We can build anything and market it too.</p>
+                <p> - </p>
+                <p>Our goal is to get you to the point of sitting back watching your site and ads run themselves. We can and will get you there like we have done for our clients before!</p>
+                <p> - </p>
             </div>
 
             <div className="card-body testimonials">

@@ -3,8 +3,13 @@
     background-color: rgb(224, 224, 224);
     color: rgb(0, 0, 0);
     padding: 10px;
-    height: 100px;
+    height: 170px;
     /* position: fixed; */
     bottom: 0;
     width: 100%;
+}
+
+.footerDiv p a {
+    text-decoration: none;
+    color: black;
 }
