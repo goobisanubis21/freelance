@@ -15,6 +15,7 @@ function Nav() {
                     <div className="navbar-nav navBarLinks">
                         <Link to="/"><div className="nav-link" title="Home Page">Home</div></Link>
                         <Link to="/web-services"><div className="nav-link" title="What We Offer">Web Services</div></Link>
+                        <Link to ="/marketing"><div className="nav-link" title="Advertising">Marketing Services</div></Link>
                         <Link to="/portfolio"><div className="nav-link" title="Our Projects">Portfolio</div></Link>
                         <Link to="/about"><div className="nav-link" title="About Us">About</div></Link>
                         <Link to="/contact"><div className="nav-link" title="Contact Us">Contact</div></Link>

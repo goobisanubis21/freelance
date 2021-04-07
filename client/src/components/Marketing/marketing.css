@@ -1,0 +1,15 @@
+.marketHeader {
+    background-color: rgb(225, 255, 244);
+    text-align: center;
+}
+
+.marketHeaderTitle {
+    font-size: 75px;
+    font-family: 'Newsreader', serif;
+    padding-top: 100px;
+}
+
+.marketHeaderText {
+    padding-bottom: 80px;
+    font-size: 20px;
+}
