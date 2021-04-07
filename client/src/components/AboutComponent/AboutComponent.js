@@ -16,7 +16,7 @@ function AboutComponent() {
         <div className="mainAboutDiv">
             <div className="aboutDiv">
                 <p className="aboutTitle">About Us</p>
-                <p className="aboutDescriptionTitle">WebCanvas Development was founded in 2021 by Anthony Parrino.</p>
+                <p className="aboutDescriptionTitle">WebCanvas Development was founded in 2020 by Anthony Parrino.</p>
                 <br/>
                 <p className="aboutDescription">My journey began years ago when I realized how bad I needed a website to sell my oil paintings. I tried a few of the no coding involved 3rd party sites to build it..but none of them felt as if I was using the power of the internet to its fullest potential. It was decent but not exactly what I wanted out of a true born web application to represent me and my art, so I decided to learn software development. Thousands of hours, high paced schooling and a few gray hairs later, I can offically say that I am now able to not only build that website, but ANY website for ANYone. </p>
                 <p className="aboutDescription">At WebCanvas we focus on understanding who you are as our client and what your industry expects out of you so we can meet the needs of your client's user experience. Our goal is to help make sure that you are as equipped as possible with your online presence to ensure that your clients will choose you.</p>
