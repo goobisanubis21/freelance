@@ -15,6 +15,17 @@
     color: rgb(0, 174, 255);
 }
 
+.believe {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  color: rgb(68, 68, 68);
+}
+
+.ourWhy {
+  color: rgb(0, 174, 255);
+}
+
 .text-focus-in {
 	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;

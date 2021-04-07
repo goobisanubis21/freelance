@@ -70,6 +70,14 @@ function HomeComp() {
             <div className="helpYou">
                 <p className="helpYouP">We are here to help you succeed with our successful marketing techniques. We also design/develop websites catering to your exact requirements.</p>
             </div>
+            <div className="card whyDiv">
+                    <div className="card-body">
+                        <h1><strong className="ourWhy">WebCanvas</strong></h1>
+                        <p className="ourWhy">~</p>
+                        <p className="believe">We believe that quality and design is a number one priority when making a difference. Our company was started based upon that belief, greatness is born by what sets you apart.</p>
+                        <p className="ourWhy">~</p>
+                    </div>
+                </div>
             <div className="whyEstimateBlock">
                 <div className="card whyDiv">
                     <div className="card-body">
@@ -81,12 +89,6 @@ function HomeComp() {
                     <div className="card-body">
                         <h2><strong>Marketing</strong></h2>
                         <p>Our marketing team can provide your business with the advertising you need. Using successful Facebook Marketing techniques proven by our clients we are able to increase your lead conversions which in turn will increase your sales and exposure.</p>
-                    </div>
-                </div>
-                <div className="card whyDiv">
-                    <div className="card-body">
-                        <h2><strong>Why WebCanvas</strong></h2>
-                        <p>We provide an affordable Full Stack Web Application Development Service that is mobile responsive and worthy of representing you and your business. We are avaliable for you 24 hours a day, 7 days a week to meet the requirements that, according to the market, you desprately need to ensure you stay on the path of success. WebCanvas Development will bring your vision into fruition.</p>
                     </div>
                 </div>
                 <form onSubmit={sendEmail} onChange={handleBtn}>
