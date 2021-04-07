@@ -43,6 +43,7 @@
 
 .whatWeDoDiv {
     text-align: center;
+    margin-top: 50px;
 }
 
 .whatWeDoTitle {
@@ -50,15 +51,19 @@
     font-weight: 600;
     color: rgb(0, 0, 0);
     font-family: 'Newsreader', serif;
-    margin-top: 80px;
 }
 
 .whatWeDoTitle1 {
     font-size: 50px;
     font-weight: 600;
-    color: rgb(86, 163, 103);
+    color: rgb(0, 0, 0);
     font-family: 'Newsreader', serif;
     margin-top: 80px;
+}
+
+.ptags {
+    width: 70%;
+    margin: 0 auto;
 }
 
 .whatWeDoText {
@@ -73,7 +78,8 @@
     font-size: 30px;
     background-color: black;
     box-shadow: 0 0 30px 30px;
-    margin-top: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .whatWeOffer {
