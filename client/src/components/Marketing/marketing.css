@@ -6,10 +6,35 @@
 .marketHeaderTitle {
     font-size: 75px;
     font-family: 'Newsreader', serif;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 .marketHeaderText {
     padding-bottom: 80px;
     font-size: 20px;
+}
+
+.fbAdsDiv {
+    text-align: center;
+    margin-top: 100px;
+    font-family:'sans-serif';
+}
+
+.fbAdsImg {
+    width: 22%;
+}
+
+@media screen and (max-width: 1000px) {
+    .fbAdsImg {
+        display: block;
+        margin: 0 auto;
+        width: 30%;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .fbAdsImg {
+        width: 70%;
+    }   
 }
