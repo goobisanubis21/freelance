@@ -38,7 +38,7 @@ function MarketingComp() {
                 <img onClick={gold} className="fbAdsImg gold" src={Gold} alt="gold"></img>
             </div>
             <div className="world">
-                <p className="connect">Connect Your Audience.</p>
+                <p className="connect">Connect With Your Audience.</p>
                 <p className="connWorld">Connect With The World.</p>
             </div>
             <div>
