@@ -8,7 +8,7 @@
     background-image: url("./webserv.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 570px;
+    height: 470px;
     position: relative;
     width: 100%;
     box-shadow: 0 0 20px 20px;
@@ -66,6 +66,41 @@
     margin: 0 auto;
 }
 
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto;
+}
+
+.websites {
+    width: 30%;
+}
+
+.websitesDivTitleText {
+    font-size: 50px;
+}
+
+.dev {
+    width: 300px;
+}
+
+.websitePText {
+    width: 80%;
+    margin: 20px auto;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(128, 128, 128);
+}
+
+@media screen and (max-width: 1155px) {
+    .info {
+        display: block;
+    }
+    .websites {
+        width: 100%;
+    }
+}
+
 .whatWeDoText {
     width: 100%;
     margin: 0 auto;
@@ -103,8 +138,16 @@
 }
 
 .questionLogo {
-    width: 22%;
-    margin-bottom: 40px;
+    width: 15%;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 1155px) {
+    .questionLogo {
+        width: 30%;
+        margin-bottom: 0;
+    }
 }
 
 .webReactLogo {

@@ -88,7 +88,7 @@ function HomeComp() {
                 <div className="card whyDiv">
                     <div className="card-body">
                         <h2><strong>Marketing</strong></h2>
-                        <p>Our marketing team can provide your business with the advertising you need. Using successful Facebook Marketing techniques proven by our clients we are able to increase your lead conversions which in turn will increase your sales and exposure.</p>
+                        <p>Our marketing team can provide your business with the advertising you need. Using successful Facebook Marketing techniques proven by our clients we are able to increase your lead conversions which in turn will increase your sales and exposure. <Link to="/marketing">Learn More About Marketing</Link></p>
                     </div>
                 </div>
                 <form onSubmit={sendEmail} onChange={handleBtn}>
