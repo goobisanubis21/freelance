@@ -40,6 +40,39 @@
     cursor: pointer;
 }
 
+.marketEstimate {
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
+    background-color: rgb(243, 243, 243) !important;
+    font-family: 'apple';
+}
+
+.marketEstimate input {
+    display: block;
+    margin: 10px auto;
+    width: 250px;  
+}
+
+.marketEstimate textarea {
+    display: block;
+    margin: 10px auto;
+    width: 330px;
+    height: 200px;
+}
+
+.marketEstimate label {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.marketEstimate p {
+    padding: 20px;
+    font-size: 15px;
+    color: rgb(255, 0, 0);
+    font-weight: 500;
+}
+
 .world {
     background: url("./mapAni.gif");
     background-repeat: no-repeat;

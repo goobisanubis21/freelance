@@ -110,6 +110,7 @@ function HomeComp() {
                             <label className="required">Description</label>
                             <textarea id="description" type="text" name="description" placeholder="Brief Description of what you need us to provide. Website? Marketing? Logo? All of the above?" required></textarea>
                             <button id="sendEmailBtn" className="estimateBtn" type="submit">Submit</button>
+                            <p>Your Data Will Never Be Shared or Public.</p>
                         </div>
                     </div>
                 </form>

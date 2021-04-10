@@ -48,6 +48,13 @@
     font-weight: 600;
 }
 
+.contactEstimate p {
+    padding: 20px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
 @media screen and (max-width: 750px) {
     .contactEstimate {
         width: 90%;
