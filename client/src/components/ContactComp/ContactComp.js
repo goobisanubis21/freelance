@@ -36,7 +36,9 @@ function ContactComp() {
                 console.log(error.text);
             });
             e.target.reset()
-            alert("Your Email has been sent! We will respond in 1 business day or less.")
+            setTimeout(() => {
+                window.location.href="/thankyou"
+            }, 500);
     }
 
     return (
