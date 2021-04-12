@@ -5,6 +5,14 @@ import Gold from "./gold.png";
 import Silver from "./silver.png";
 import Bronze from "./bronze.png";
 import emailjs from "emailjs-com";
+import Doc from "./doctordentist.jpg";
+import Finance from "./finance.jpg";
+import Gym from "./gym.jpg";
+import Online from "./onlinebus.webp";
+import Realtor from "./realtor.jpg";
+import Rest from "./restaurant.jpg";
+import SmallBus from "./smallbus.jpg";
+import StartUp from "./startup.png";
 
 function MarketingComp() {
 
@@ -112,6 +120,51 @@ function MarketingComp() {
                 <div id="gold" className="goldInfo">
                     <h2>Gold Package</h2>
                     <p className="pageDeets">The gold package is a higher end, major increase concentrated strategy. There are virtually no limitations. You can expect to reach a guaranteed, thousands upon thousands of people per month taking full advange of compounding high budgets and expert level targetting concepts. We also offer a FREE landing page created entirely from scratch to suit the needs of your business saving you money and time. For more information about the Gold Package.</p>
+                </div>
+            </div>
+            <div className="special">
+                <h3 style={{fontFamily:'apple', fontSize:'40px', paddingTop:'20px'}}>We Specialize In</h3>
+                <br/>
+                <div className="specialImgDiv">
+                    <div>
+                        <img className="specialImg" src={Doc} alt="doctor/dentist"></img>
+                        <p>Doctors and Dental Offices</p>
+                    </div>
+                    <div>
+                        <img className="specialImg" src={Finance} alt="finance"></img>
+                        <p>Financial Agencies</p>
+                    </div>
+                </div>
+                <div className="specialImgDiv">
+                    <div>
+                        <img className="specialImg" src={Gym} alt="gym"></img>
+                        <p>Gyms and Fitness</p>
+                    </div>
+                    <div>
+                        <img className="specialImg" src={Online} alt="online"></img>
+                        <p>Online Businesses</p>
+                    </div>
+                </div>
+                <div className="specialImgDiv">
+                    <div>
+                        <img className="specialImg" src={Realtor} alt="realtor"></img>
+                        <p>Realtors</p>
+                    </div>
+                    <div>
+                        <img className="specialImg" src={Rest} alt="restaurant"></img>
+                        <p>Restaurants</p>
+                    </div>
+                </div>
+                <div className="specialImgDiv">
+                    <div>
+                        <img className="specialImg" src={SmallBus} alt="smallbusiness"></img>
+                        <p>Small Businesses</p>
+                    </div>
+                    <div>
+                        <img className="specialImg" src={StartUp} alt="startup"></img>
+                        <p>Start-Ups</p>
+                    </div>
+                    <br/>
                 </div>
             </div>
         </div>

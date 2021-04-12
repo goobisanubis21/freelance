@@ -149,6 +149,8 @@
 .moreInfoDivs {
     font-family: 'apple';
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .moreInfoDivs h2 {
@@ -163,5 +165,40 @@
 @media screen and (max-width: 1000px) {
     .pageDeets {
         width: 60%;
+    }
+}
+
+.special {
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+    color: rgb(0, 0, 0);
+    width: 80%;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 50px 50px rgb(161, 161, 161);
+}
+
+.specialImgDiv div {
+    margin-bottom: 50px;
+}
+
+.specialImgDiv p {
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.specialImg {
+    width: 40%;
+    box-shadow: 0 0 35px 5px rgb(107, 107, 107);
+}
+
+@media screen and (max-width: 800px) {
+    .special {
+        width: 95%;
+    }
+
+    .specialImg {
+        width: 95%;
     }
 }
