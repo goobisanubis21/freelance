@@ -5,12 +5,12 @@ import Gold from "./gold.png";
 import Silver from "./silver.png";
 import Bronze from "./bronze.png";
 import emailjs from "emailjs-com";
-import Doc from "./doctordentist.jpg";
-import Finance from "./finance.jpg";
-import Gym from "./gym.jpg";
-import Online from "./onlinebus.webp";
-import Realtor from "./realtor.jpg";
-import Rest from "./restaurant.jpg";
+import Doc from "./doctordentist.png";
+import Finance from "./finance.png";
+import Gym from "./gym.png";
+import Online from "./onlinebus.png";
+import Realtor from "./realtor.png";
+import Rest from "./restaurant.png";
 import SmallBus from "./smallbus.jpg";
 import StartUp from "./startup.png";
 import SilverSmall from "./silverSmall.png";
@@ -63,7 +63,7 @@ function MarketingComp() {
             });
         e.target.reset()
         setTimeout(() => {
-            window.location.href="/thankyou"
+            window.location.href = "/thankyou"
         }, 500);
     }
 
@@ -81,26 +81,26 @@ function MarketingComp() {
                 <img onClick={gold} className="fbAdsImg gold" src={Gold} alt="gold"></img>
             </div>
             <form onSubmit={sendEmail} onChange={handleBtn}>
-                    <div className="card marketEstimate">
-                        <div className="card-body">
-                            <h3>Get A Quote</h3>
-                            <label className="required">First Name</label>
-                            <input id="first_name" type="text" name="first_name" placeholder="First Name" required></input>
-                            <label className="required">Last Name</label>
-                            <input id="last_name" type="text" name="last_name" placeholder="Last Name" required></input>
-                            <label className="required">Email</label>
-                            <input id="email" type="email" name="email" placeholder="YourEmail@example.com" required></input>
-                            <label>Company Name</label>
-                            <input id="company" type="text" name="company" placeholder="Company Name"></input>
-                            <label className="required">Phone Number</label>
-                            <input id="phone_number" type="text" name="phone_number" placeholder="Phone Number" required></input>
-                            <label className="required">Description</label>
-                            <textarea id="description" type="text" name="description" placeholder="Package of Interest/Questions" required></textarea>
-                            <button id="sendEmailBtn" className="estimateBtn" type="submit">Submit</button>
-                            <p>Your Data Will Never Be Shared or Public.</p>
-                        </div>
+                <div className="card marketEstimate">
+                    <div className="card-body">
+                        <h3>Get A Quote</h3>
+                        <label className="required">First Name</label>
+                        <input id="first_name" type="text" name="first_name" placeholder="First Name" required></input>
+                        <label className="required">Last Name</label>
+                        <input id="last_name" type="text" name="last_name" placeholder="Last Name" required></input>
+                        <label className="required">Email</label>
+                        <input id="email" type="email" name="email" placeholder="YourEmail@example.com" required></input>
+                        <label>Company Name</label>
+                        <input id="company" type="text" name="company" placeholder="Company Name"></input>
+                        <label className="required">Phone Number</label>
+                        <input id="phone_number" type="text" name="phone_number" placeholder="Phone Number" required></input>
+                        <label className="required">Description</label>
+                        <textarea id="description" type="text" name="description" placeholder="Package of Interest/Questions" required></textarea>
+                        <button id="sendEmailBtn" className="estimateBtn" type="submit">Submit</button>
+                        <p>Your Data Will Never Be Shared or Public.</p>
                     </div>
-                </form>
+                </div>
+            </form>
             <div className="world">
                 <p className="connect">Connect With Your Audience.</p>
                 <p className="connWorld">Connect With The World.</p>
@@ -129,48 +129,54 @@ function MarketingComp() {
                 </div>
             </div>
             <div className="special">
-                <h3 style={{fontFamily:'Helvetica', fontSize:'40px', paddingTop:'20px'}}>We Specialize In</h3>
-                <br/>
+                <h3 style={{ fontFamily: 'Helvetica', fontSize: '40px', paddingTop: '20px', paddingBottom:'50px', fontWeight: '800' }}>We Specialize In</h3>
+                <br />
                 <div className="specialImgDiv">
                     <div>
-                        <img className="specialImg" src={Doc} alt="doctor/dentist"></img>
-                        <p>Doctors and Dental Offices</p>
-                    </div>
-                    <div>
-                        <img className="specialImg" src={Finance} alt="finance"></img>
-                        <p>Financial Agencies</p>
+                        <div>
+                            <p>Financial Agencies</p>
+                            <img className="specialImg" src={Finance} alt="finance"></img>
+                        </div>
+                        <div>
+                            <p>Doctors and Dental Offices</p>
+                            <img className="specialImg" src={Doc} alt="doctor/dentist"></img>
+                        </div>
+                        <div>
+                            <p>Realtors</p>
+                            <img className="specialImg" src={Realtor} alt="realtor"></img>
+                        </div>
                     </div>
                 </div>
                 <div className="specialImgDiv">
                     <div>
-                        <img className="specialImg" src={Gym} alt="gym"></img>
-                        <p>Gyms and Fitness</p>
-                    </div>
-                    <div>
-                        <img className="specialImg" src={Online} alt="online"></img>
-                        <p>Online Businesses</p>
-                    </div>
-                </div>
-                <div className="specialImgDiv">
-                    <div>
-                        <img className="specialImg" src={Realtor} alt="realtor"></img>
-                        <p>Realtors</p>
-                    </div>
-                    <div>
-                        <img className="specialImg" src={Rest} alt="restaurant"></img>
-                        <p>Restaurants</p>
+                        <div>
+                            <p>Online Businesses</p>
+                            <img className="specialImg" src={Online} alt="online"></img>
+                        </div>
+                        <div>
+                            <p>Gyms and Fitness</p>
+                            <img className="specialImg" src={Gym} alt="gym"></img>
+                        </div>
+                        <div>
+                            <p>Restaurants</p>
+                            <img className="specialImg" src={Rest} alt="restaurant"></img>
+                        </div>
                     </div>
                 </div>
                 <div className="specialImgDiv">
                     <div>
-                        <img className="specialImg" src={SmallBus} alt="smallbusiness"></img>
-                        <p>Small Businesses</p>
+                        <div>
+                            <p>Small Businesses</p>
+                            <img className="specialImg" src={SmallBus} alt="smallbusiness"></img>
+                        </div>
+                        <div>
+                            <p>Start-Ups</p>
+                            <img className="specialImg" src={StartUp} alt="startup"></img>
+                        </div>
+                        <div>
+                            <h3 style={{fontWeight:'800'}}>And More!</h3>
+                        </div>
                     </div>
-                    <div>
-                        <img className="specialImg" src={StartUp} alt="startup"></img>
-                        <p>Start-Ups</p>
-                    </div>
-                    <br/>
                 </div>
             </div>
         </div>
