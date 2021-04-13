@@ -8,7 +8,7 @@
 
 .marketHeaderTitle {
     font-size: 75px;
-    font-family: 'Newsreader', serif;
+    font-family: Helvetica;
     color: white;
     padding-top: 100px;
 }
@@ -21,7 +21,7 @@
 .fbAdsDiv {
     text-align: center;
     margin-top: 100px;
-    font-family:'sans-serif';
+    font-family: Helvetica;
 }
 
 .fbAdsImg {
@@ -41,29 +41,29 @@
 }
 
 .marketEstimate {
-    width: 100%;
+    max-width: 450px;
     margin: 50px auto;
     text-align: center;
     background-color: rgb(243, 243, 243) !important;
-    font-family: 'apple';
+    font-family: Helvetica;
+    box-shadow: 0 0 30px 10px rgb(190, 190, 190);
 }
 
 .marketEstimate input {
     display: block;
-    margin: 10px auto;
+    margin: 0 auto;
     width: 250px;  
 }
 
 .marketEstimate textarea {
     display: block;
-    margin: 10px auto;
+    margin: 5px auto;
     width: 330px;
-    height: 200px;
+    height: 150px;
 }
 
 .marketEstimate label {
-    font-size: 25px;
-    margin-top: 20px;
+    font-size: 15px;
 }
 
 .marketEstimate p {
@@ -71,6 +71,12 @@
     font-size: 15px;
     color: rgb(255, 0, 0);
     font-weight: 500;
+}
+
+@media screen and (max-width: 1000px) {
+    .marketEstimate {
+        max-width: 370px;
+    }
 }
 
 .world {
@@ -125,13 +131,13 @@
 .marketingTitle {
     text-align: center;
     font-size: 60px;
-    font-family: 'apple';
+    font-family: Helvetica;
     font-weight: 700;
 }
 
 .marketingUnderTitle {
     text-align: center;
-    font-family: 'apple';
+    font-family: Helvetica;
     font-size: 25px;
     font-weight: 700;
 }
@@ -142,12 +148,12 @@
     margin-bottom: 50px;
     text-align: center;
     font-size: 20px;
-    font-family: 'apple';
+    font-family: Helvetica;
     color: rgb(119, 119, 119);
 }
 
 .moreInfoDivs {
-    font-family: 'apple';
+    font-family: Helvetica;
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
