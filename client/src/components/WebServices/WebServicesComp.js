@@ -43,7 +43,7 @@ function WebServicesComp() {
                     <div className="websites">
                         <p className="websitesDivTitleText">Websites</p>
                         <img className="dev" src={Dev} alt="dev"></img>
-                        <p className="websitePText">A good developer is hard to come by, thats just a plain old life fact.. but you landed here so look no further, WebCanvas Development has your virtual back. Whether it's a simple single page website for a portfilio, or a long term mutli-page full stack website that needs a database, user authentication and payment methods, we have you covered. We will work with you throughout the entire development process, sending you weekly updates or updates upon request.</p>
+                        <p className="websitePText">A good developer is hard to come by, thats just a plain old life fact, luckily WebCanvas Development has your virtual back. Whether it's a simple single page website for a portfilio, or a long term mutli-page full stack website that needs a database, user authentication and payment methods, we have you covered. We will work with you throughout the entire development process, sending you weekly updates or updates upon request.</p>
                     </div>
                     <div className="websites">
                         <p className="websitesDivTitleText">Marketing</p>

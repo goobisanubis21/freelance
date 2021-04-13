@@ -56,7 +56,7 @@ function HomeComp() {
             });
         e.target.reset()
         setTimeout(() => {
-            window.location.href="/thankyou"
+            window.location.href = "/thankyou"
         }, 500);
     }
 
@@ -72,7 +72,8 @@ function HomeComp() {
             <div className="helpYou">
                 <p className="helpYouP">We are here to help you succeed with our successful marketing techniques. We also design/develop websites catering to your exact requirements.</p>
             </div>
-            <div className="card whyDiv">
+            <div className="whyEstimateBlock">
+                <div className="card whyDiv">
                     <div className="card-body">
                         <h1><strong className="ourWhy">WebCanvas</strong></h1>
                         <p className="ourWhy">~</p>
@@ -80,7 +81,7 @@ function HomeComp() {
                         <p className="ourWhy">~</p>
                     </div>
                 </div>
-            <div className="whyEstimateBlock">
+
                 <div className="card whyDiv">
                     <div className="card-body">
                         <h2><strong>Importance</strong></h2>

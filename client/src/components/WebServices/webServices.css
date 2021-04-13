@@ -2,6 +2,7 @@
     /* margin-top: 80px; */
     margin-bottom: 100px;
     background-color: rgb(255, 255, 255);
+    font-family: Helvetica;
 }
 
 .mainWebDiv {
@@ -18,7 +19,6 @@
     padding-top: 80px;
     color: rgb(0, 255, 128);
     font-size: 90px;
-    font-family: 'Newsreader', serif;
     text-align: center;
     position: relative;
 }
@@ -48,16 +48,14 @@
 
 .whatWeDoTitle {
     font-size: 50px;
-    font-weight: 600;
+    font-weight: 500;
     color: rgb(0, 0, 0);
-    font-family: 'Newsreader', serif;
 }
 
 .whatWeDoTitle1 {
     font-size: 50px;
     font-weight: 600;
     color: rgb(0, 0, 0);
-    font-family: 'Newsreader', serif;
     margin-top: 80px;
 }
 
@@ -112,7 +110,7 @@
 .whatWeOfferDiv {
     font-size: 30px;
     background-color: black;
-    box-shadow: 0 0 30px 30px;
+    box-shadow: 0 0 25px 15px;
     margin-top: 80px;
     margin-bottom: 80px;
 }
@@ -159,7 +157,6 @@
     font-size: 80px;
     font-weight: 600;
     color: rgb(58, 139, 105);
-    font-family: 'Newsreader', serif;
     margin-top: 80px;
 }
 
@@ -171,7 +168,7 @@
 
 .ourProcessText {
     font-size: 20px;
-    color: rgb(0, 0, 0);
+    color: rgb(77, 77, 77);
     width: 300px;
     margin-left: auto;
     margin-right: auto;
