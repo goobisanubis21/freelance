@@ -73,6 +73,12 @@ function MarketingComp() {
                 <p className="marketHeaderTitle">Marketing Services</p>
                 <p className="marketHeaderText">Proven Growth for your Business</p>
             </div>
+            <br/>
+            <div>
+                <p className="marketingTitle">Our Strategy</p>
+                <p className="marketingUnderTitle">Social Media Giant</p>
+                <p className="marketingText">We use a monster of a company you may have heard of, the giant known as Facebook. Facebook with its over 2 billion users is an ocean of potential traffic and customers we can scoop up for you. Our marketing gurus use advanced tactics to pinpoint your audience and their interests to gain trust and eventually traffic. On average a person needs to see an ad 4 to 7 times before deciding to click or buy, our goal is to get your ads in front of as many people as possible as many times as possible. We take a lot of pride in our success with past and current clients when it comes to our advertising achievements and we would love to help you. Get your free quote today.</p>
+            </div>
             <div className="fbAdsDiv">
                 <h2>The WebCanvas Marketing Packages</h2>
                 <br />
@@ -105,11 +111,6 @@ function MarketingComp() {
                 <p className="connect">Connect With Your Audience.</p>
                 <p className="connWorld">Connect With The World.</p>
             </div>
-            <div>
-                <p className="marketingTitle">Our Strategy</p>
-                <p className="marketingUnderTitle">Social Media Giant</p>
-                <p className="marketingText">We use a monster of a company you may have heard of, the giant known as Facebook. Facebook with its over 2 billion users is an ocean of potential traffic and customers we can scoop up for you. Our marketing gurus use advanced tactics to pinpoint your audience and their interests to gain trust and eventually traffic. On average a person needs to see an ad 4 to 7 times before deciding to click or buy, our goal is to get your ads in front of as many people as possible as many times as possible. We take a lot of pride in our success with past and current clients when it comes to our advertising achievements and we would love to help you. Get your free quote today.</p>
-            </div>
             <div className="moreInfoDivs">
                 <div id="bronze" className="bronzeInfo">
                     {/* <h2>Bronze Package</h2> */}
@@ -125,11 +126,11 @@ function MarketingComp() {
                     {/* <h2>Gold Package</h2> */}
                     <img src={GoldSmall} alt="GoldSmall"></img>
                     <p className="pageDeets">The gold package is a higher end option using an increasingly concentrated strategy. You can expect to reach a guaranteed, thousands upon thousands of people per month taking full advange of compounding high budgets and expert level targeting concepts.</p>
-                    <p>We offer a FREE landing page custom created to suit the needs of your business, saving you time and money.</p>
+                    <p>With Gold we offer a FREE landing page custom created to suit the needs of your business, saving you time and money.</p>
                 </div>
             </div>
             <div className="special">
-                <h3 style={{ fontFamily: 'Helvetica', fontSize: '40px', paddingTop: '20px', paddingBottom:'50px', fontWeight: '800' }}>We Specialize In</h3>
+                <h3 style={{ fontFamily: 'Helvetica', fontSize: '40px', paddingTop: '20px', paddingBottom: '50px', fontWeight: '800' }}>We Specialize In</h3>
                 <br />
                 <div className="specialImgDiv">
                     <div>
@@ -174,7 +175,7 @@ function MarketingComp() {
                             <img className="specialImg" src={StartUp} alt="startup"></img>
                         </div>
                         <div>
-                            <h3 style={{fontWeight:'800'}}>And More!</h3>
+                            <h3 style={{ fontWeight: '800' }}>And More!</h3>
                         </div>
                     </div>
                 </div>
